@@ -1,0 +1,36 @@
+.page_selection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.selected_page {
+  font-weight: bold;
+}
+
+.projects_list {
+  height: 30rem;
+  overflow: auto;
+  margin: 2.4rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.table {
+  min-width: 40rem;
+  width: 30%;
+  border-collapse: collapse;
+}
+
+.table_head {
+  top: 0;
+  position: sticky;
+  background-color: lightgray;
+}
+
+.table th, td {
+  border: 1px solid lightgray;
+  padding: 0.4rem 0.8rem;
+}
